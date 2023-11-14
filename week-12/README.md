@@ -128,3 +128,23 @@ class _FuturePageState extends State<FuturePage> {
 ```
 
 ![Screenshot soal 4](docs/prak2_no4.gif)
+
+## Soal 5
+
+* Langkah 2: untuk membuat dan menyelesaikan Future secara asinkron
+
+```dart
+late Completer completer;
+
+Future getNumber() {
+  completer = Completer<int>();
+  calculate();
+  return completer.future;
+}
+
+Future calculate() async {
+  await Future.delayed(const Duration(seconds : 5));
+  completer.complete(42);
+}
+```
+![Screenshot soal 5](docs/prak3_no5.gif)
