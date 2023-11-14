@@ -86,3 +86,45 @@ class _FuturePageState extends State<FuturePage> {
 * CatchError : digunakan untuk menangani kesalahan yang terjadi pada sebuah promise
 
 ![Screenshot soal 3](docs/prak1_no3.gif)
+
+# Praktikum 4
+
+## Soal 4
+
+* Langkah 1: Mengambil data dari jaringan secara bersamaan menggunakan Future.wait()
+
+```dart
+ Future<int> returnOneAsync() async {
+    await Future.delayed(const Duration(seconds: 3));
+    return 1;
+  }
+
+  Future<int> returnTwoAsync() async {
+    await Future.delayed(const Duration(seconds: 3));
+    return 2;
+  }
+
+  Future<int> returnThreeAsync() async {
+    await Future.delayed(const Duration(seconds: 3));
+    return 3;
+  }
+```
+
+* Langkah 2: Menghitung jumlah dari tiga fungsi asinkron `returnOneAsync()`, `returnTwoAsync()`, dan `returnThreeAsync()`. Fungsi ini menggunakan `await` untuk menunggu masing-masing fungsi asinkron selesai sebelum melanjutkan ke eksekusi kode berikutnya. 
+
+```dart
+  Future count() async {
+    int total = 0;
+
+    total = await returnOneAsync();
+    total += await returnTwoAsync();
+    total += await returnThreeAsync();
+
+    setState(() {
+      result = total.toString();
+    });
+
+  }
+```
+
+![Screenshot soal 4](docs/prak2_no4.gif)
