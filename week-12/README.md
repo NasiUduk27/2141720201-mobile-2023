@@ -87,7 +87,7 @@ class _FuturePageState extends State<FuturePage> {
 
 ![Screenshot soal 3](docs/prak1_no3.gif)
 
-# Praktikum 4
+# Praktikum 2
 
 ## Soal 4
 
@@ -129,6 +129,8 @@ class _FuturePageState extends State<FuturePage> {
 
 ![Screenshot soal 4](docs/prak2_no4.gif)
 
+# Praktikum 3
+
 ## Soal 5
 
 * Langkah 2: untuk membuat dan menyelesaikan Future secara asinkron
@@ -148,3 +150,11 @@ Future calculate() async {
 }
 ```
 ![Screenshot soal 5](docs/prak3_no5.gif)
+
+## Soal 6
+
+* Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+
+Perbedaan untuk output masih sama saja, tetapi pada baris kode ditambahkan try and catch untuk menangani error yang terjadi pada kode tersebut.
+
+![Screenshot soal 6](docs/prak3_no6.gif)
