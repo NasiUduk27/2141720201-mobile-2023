@@ -91,6 +91,28 @@ class _FuturePageState extends State<FuturePage> {
     }
   }
 
+  void returnFG() {
+    FutureGroup<int> futureGroup = FutureGroup<int>();
+
+    futureGroup.add(returnOneAsync());
+    futureGroup.add(returnTwoAsync());
+    futureGroup.add(returnThreeAsync());
+
+    futureGroup.close();
+
+    futureGroup.future.then((List<int> value) {
+      int total = 0;
+
+      for (int i = 0; i < value.length; i++) {
+        total += value[i];
+      }
+
+      setState(() {
+        result = total.toString();
+      });
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -120,13 +142,15 @@ class _FuturePageState extends State<FuturePage> {
                   //   });
                   // });
 
-                  getNumber().then((value) {
-                    setState(() {
-                      result = value.toString();
-                    });
-                  }).catchError((e) {
-                    result = 'An error occurred';
-                  });
+                  // getNumber().then((value) {
+                  //   setState(() {
+                  //     result = value.toString();
+                  //   });
+                  // }).catchError((e) {
+                  //   result = 'An error occurred';
+                  // });
+
+                  returnFG();
                 },
                 child: const Text('Go!')),
             const Spacer(),

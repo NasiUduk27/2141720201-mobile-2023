@@ -158,3 +158,7 @@ Future calculate() async {
 Perbedaan untuk output masih sama saja, tetapi pada baris kode ditambahkan try and catch untuk menangani error yang terjadi pada kode tersebut.
 
 ![Screenshot soal 6](docs/prak3_no6.gif)
+
+## Soal 7
+
+![Screenshot soal 7](docs/prak4_no7.gif)
