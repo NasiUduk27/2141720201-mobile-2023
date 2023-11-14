@@ -1,3 +1,12 @@
+## Nama : Dhoriffito Diansyah Putra
+## NIM : 2141720201
+## Kelas : TI-3F
+
+# Praktikum 1
+
+## Soal 1
+
+```dart
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:http/http.dart';
@@ -10,7 +19,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -36,13 +44,6 @@ class FuturePage extends StatefulWidget {
 class _FuturePageState extends State<FuturePage> {
   String result = '';
 
-  Future<Response> getData() async {
-    const authority = 'www.googleapis.com';
-    const path = '/books/v1/volumes/NsdGDwAAQBAJ';
-    Uri url = Uri.https(authority, path);
-    return http.get(url);
-  }
-
   @override
   Widget build(BuildContext context){
     return Scaffold(
@@ -55,23 +56,7 @@ class _FuturePageState extends State<FuturePage> {
           children: [
             const Spacer(),
             ElevatedButton(
-              onPressed: (){
-                setState(() {
-                  
-                });
-                getData().then((value){
-                  result = value.body.toString().substring(0, 450);
-                  setState(() {
-                    
-                  });
-                }).catchError((_){
-                  result = 'An error has ocurred!';
-                  setState(() {
-                    
-                  });
-                });
-
-              }, 
+              onPressed: (){}, 
               child: const Text('Go!')
             ),
             const Spacer(),
@@ -85,3 +70,19 @@ class _FuturePageState extends State<FuturePage> {
     );
   }
 }
+
+```
+
+![Screenshot soal 1](docs/prak1_no1.png)
+
+## Soal 2
+
+![Screenshot soal 2](docs/prak1_buku.png)
+
+![Screenshot soal 2](docs/prak1_json.png)
+
+## Soal 3
+* Substring : digunakan untuk mengambil sebagian string dari string awal
+* CatchError : digunakan untuk menangani kesalahan yang terjadi pada sebuah promise
+
+![Screenshot soal 3](docs/prak1_no3.gif)
