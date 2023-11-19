@@ -169,3 +169,7 @@ Perbedaan langkah 1 dan langkah 4
 
 * Langkah 1: Menggunakan `Future.delayed` untuk menunda eksekusi kode selama 5 detik
 * Langkah 4: Menggunakan `Future.delayed` untuk menunda eksekusi kode selama 5 detik, tetapi menggunakan `async` dan `await` untuk menunggu eksekusi kode sebelumnya selesai
+
+## Soal 9
+
+![Screenshot soal 9](docs/prak5_no9.gif)
