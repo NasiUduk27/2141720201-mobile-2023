@@ -173,3 +173,11 @@ Perbedaan langkah 1 dan langkah 4
 ## Soal 9
 
 ![Screenshot soal 9](docs/prak5_no9.gif)
+
+## Soal 10
+
+Perbedaan langkah 1 dan 4
+
+* langkah 1 : Fungsi returnError() menggunakan objek Future untuk menunda eksekusi selama dua detik. Setelah dua detik berlalu, fungsi tersebut melemparkan pengecualian dengan pesan "Something terrible happened!".
+
+* langkah 4 : Fungsi handleError() menggunakan blok try-catch untuk menangkap pengecualian yang mungkin dilemparkan oleh fungsi returnError().
