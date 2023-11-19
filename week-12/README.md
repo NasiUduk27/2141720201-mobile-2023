@@ -162,3 +162,10 @@ Perbedaan untuk output masih sama saja, tetapi pada baris kode ditambahkan try a
 ## Soal 7
 
 ![Screenshot soal 7](docs/prak4_no7.gif)
+
+## Soal 8
+
+Perbedaan langkah 1 dan langkah 4
+
+* Langkah 1: Menggunakan `Future.delayed` untuk menunda eksekusi kode selama 5 detik
+* Langkah 4: Menggunakan `Future.delayed` untuk menunda eksekusi kode selama 5 detik, tetapi menggunakan `async` dan `await` untuk menunggu eksekusi kode sebelumnya selesai
