@@ -243,6 +243,8 @@ ElevatedButton(
 ## Soal 17
 
 * Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+Bila di klik warna akan berubah sesuai dengan warna yang kita set sebelumnya, hal ini disebabkan karena nilai color diperbaharui dengan nilai yang dipilih dalam fungsi _showColorDialog.
+
 * Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
 ```dart
 TextButton(
