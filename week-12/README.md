@@ -203,3 +203,67 @@ Tidak terdapat perbedaan UI dengan praktikum sebelumnya, hal ini disebabkan kita
 Tidak terdapat perbedaan UI dengan praktikum sebelumnya, hal ini disebabkan karena dalam kode diatas tidak terdapat error
 
 ![Screenshot soal 14](docs/prak7_no13.gif)
+
+## Soal 15
+
+* Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+  `title: const Text("Navigation First Screen Fito")`
+* Silakan ganti dengan warna tema favorit Anda.
+  `Color color = Colors.blueAccent;`
+
+## Soal 16
+
+* Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+karena tiap button memiliki function `Navigation.pop()` maka jika menekan tombol warna akan berubah sesuai nilai yang sudah di set sebelumnya. 
+* Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+```dart
+ElevatedButton(
+                onPressed: () {
+                  color = Colors.red;
+                  Navigator.pop(context, color);
+                },
+                child: const Text("red")),
+            ElevatedButton(
+                onPressed: () {
+                  color = Colors.yellow;
+                  Navigator.pop(context, color);
+                },
+                child: const Text("yellow")),
+            ElevatedButton(
+                onPressed: () {
+                  color = Colors.green;
+                  Navigator.pop(context, color);
+                },
+                child: const Text("green")),
+```
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
+
+![Screenshot soal 16](docs/prak8_no16.gif)
+
+## Soal 17
+
+* Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+* Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+```dart
+TextButton(
+                child: const Text('Red'),
+                onPressed: () {
+                  color = Colors.red;
+                  Navigator.pop(context, color);
+                }),
+            TextButton(
+                child: const Text('Yellow'),
+                onPressed: () {
+                  color = Colors.yellow;
+                  Navigator.pop(context, color);
+                }),
+            TextButton(
+                child: const Text('Green'),
+                onPressed: () {
+                  color = Colors.green;
+                  Navigator.pop(context, color);
+                }),
+```
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17".
+
+![Screenshot soal 17](docs/prak9_no17.gif)
