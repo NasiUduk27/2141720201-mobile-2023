@@ -197,3 +197,9 @@ iya mendapat koordinat GPS dikarenakan kita memakai geolocator untuk menemukan t
 Tidak terdapat perbedaan UI dengan praktikum sebelumnya, hal ini disebabkan kita masih menggunakan metode yang sama hanya saja pada praktikum kali ini menggunakan Future.
 
 ![Screenshot soal 13](docs/prak7_no13.gif)
+
+## Soal 14
+
+Tidak terdapat perbedaan UI dengan praktikum sebelumnya, hal ini disebabkan karena dalam kode diatas tidak terdapat error
+
+![Screenshot soal 14](docs/prak7_no13.gif)
