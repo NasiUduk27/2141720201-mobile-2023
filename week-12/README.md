@@ -181,3 +181,13 @@ Perbedaan langkah 1 dan 4
 * langkah 1 : Fungsi returnError() menggunakan objek Future untuk menunda eksekusi selama dua detik. Setelah dua detik berlalu, fungsi tersebut melemparkan pengecualian dengan pesan "Something terrible happened!".
 
 * langkah 4 : Fungsi handleError() menggunakan blok try-catch untuk menangkap pengecualian yang mungkin dilemparkan oleh fungsi returnError().
+
+## Soal 11 
+
+![Screenshot soal 11](docs/prak6_no12.png)
+
+## Soal 12
+
+iya mendapat koordinat GPS dikarenakan kita memakai geolocator untuk menemukan titik lokasi
+
+![Screenshot soal 11](docs/prak6_no12.png)
