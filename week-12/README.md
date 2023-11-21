@@ -191,3 +191,9 @@ Perbedaan langkah 1 dan 4
 iya mendapat koordinat GPS dikarenakan kita memakai geolocator untuk menemukan titik lokasi
 
 ![Screenshot soal 11](docs/prak6_no12.png)
+
+## Soal 13
+
+Tidak terdapat perbedaan UI dengan praktikum sebelumnya, hal ini disebabkan kita masih menggunakan metode yang sama hanya saja pada praktikum kali ini menggunakan Future.
+
+![Screenshot soal 13](docs/prak7_no13.gif)
