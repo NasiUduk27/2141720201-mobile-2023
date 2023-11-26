@@ -66,3 +66,36 @@ Kode tersebut merupakan implementasi metode dispose dalam suatu widget atau kela
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ![Screenshot soal 6](docs/prak2_no6.gif)
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6"
+
+## Soal 7
+
+* Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+
+langkah 13
+```dart
+ addError() {
+  controller.sink.addError('error');
+}
+```
+penjelasan : menambahkan pesan kesalahan 'error' ke dalam sink dari controller.
+
+Langkah 14
+```dart
+.onError((error) {
+    setState(() {
+      lastNumber = -1;
+    });
+});
+```
+
+penjelasan: Ketika terjadi kesalahan dalam stream, nilai lastNumber diubah menjadi -1 dan diupdate menggunakan setState.
+
+Langkah 15
+```dart
+ numberStream.addError();
+```
+
+penjelasan : Memanggil fungsi addError pada objek numberStream, menambahkan pesan kesalahan 'error' ke dalam stream.
+
+* Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
