@@ -33,3 +33,11 @@ class ColorStream {
 }
 ```
 * Lakukan commit hasil jawaban Soal 2 dengan pesan "W13: Jawaban Soal 2"
+
+## Soal 3
+
+* Jelaskan fungsi keyword yield* pada kode tersebut!
+untuk mendelegasikan atau melempar elemen-elemen dari satu stream ke dalam stream yang sedang dibuat. 
+* Apa maksud isi perintah kode tersebut?
+membuat asynchronous generator yang menghasilkan stream warna yang diperbarui setiap detik, diambil dari sebuah daftar colors. `Stream.periodic` digunakan untuk mengatur interval waktu, dan `yield*` untuk memasukkan nilai-nilai tersebut ke dalam stream.
+* Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3"
