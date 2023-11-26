@@ -53,3 +53,16 @@ membuat asynchronous generator yang menghasilkan stream warna yang diperbarui se
 * Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
 `listen` digunakan untuk mendapatkan data dari stream, sedangkan `await for` digunakan untuk mendapatkan data dari stream dan menunggu sampai stream tersebut selesai.
 * Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
+
+## Soal 6
+
+* Jelaskan maksud kode langkah 8 dan 10 tersebut!
+
+langkah 8
+Kode tersebut membuat instance dari NumberStream, mengambil controller-nya, dan kemudian membuat Stream dari controller tersebut. Selanjutnya, kode ini mendengarkan perubahan pada stream dan mengupdate lastNumber dalam fungsi setState ketika ada event baru.
+
+langkah 10
+Kode tersebut merupakan implementasi metode dispose dalam suatu widget atau kelas yang menggunakan numberStreamController. Pada saat objek/widget tersebut dihapus atau tidak lagi digunakan, dispose dipanggil untuk melakukan pembersihan. 
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![Screenshot soal 6](docs/prak2_no6.gif)
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6"
