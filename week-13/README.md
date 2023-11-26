@@ -47,3 +47,9 @@ membuat asynchronous generator yang menghasilkan stream warna yang diperbarui se
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ![Screenshot soal 4](docs/prak1_no4.gif)
 * Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
+
+## Soal 5
+
+* Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
+`listen` digunakan untuk mendapatkan data dari stream, sedangkan `await for` digunakan untuk mendapatkan data dari stream dan menunggu sampai stream tersebut selesai.
+* Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
