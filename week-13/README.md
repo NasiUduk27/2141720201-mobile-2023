@@ -41,3 +41,9 @@ untuk mendelegasikan atau melempar elemen-elemen dari satu stream ke dalam strea
 * Apa maksud isi perintah kode tersebut?
 membuat asynchronous generator yang menghasilkan stream warna yang diperbarui setiap detik, diambil dari sebuah daftar colors. `Stream.periodic` digunakan untuk mengatur interval waktu, dan `yield*` untuk memasukkan nilai-nilai tersebut ke dalam stream.
 * Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3"
+
+## Soal 4
+
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![Screenshot soal 4](docs/prak1_no4.gif)
+* Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
