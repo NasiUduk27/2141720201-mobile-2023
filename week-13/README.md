@@ -99,3 +99,21 @@ penjelasan : Memanggil fungsi addError pada objek numberStream, menambahkan pesa
 
 * Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
+
+## Soal 8
+
+* Jelaskan maksud kode langkah 1-3 tersebut!
+
+Langkah 1
+Mendeklarasikan variabel transformer dengan tipe StreamTransformer. Variabel ini akan digunakan untuk mengubah atau memanipulasi data yang mengalir melalui stream.
+
+Langkah 2
+Inisialisasi transformer dengan menggunakan StreamTransformer.fromHandlers. Ini adalah metode untuk membuat StreamTransformer yang mengubah data stream dengan menetapkan tiga fungsi berbeda
+
+Langkah 3
+Menggunakan transform untuk menerapkan transformer pada suatu stream. Kemudian, menggunakan listen untuk mendengarkan perubahan pada stream yang sudah diubah oleh transformer.
+
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
+
+## Soal 9
