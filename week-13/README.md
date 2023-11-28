@@ -160,4 +160,12 @@ Kode tersebut implementasi penggunaan stream untuk menghasilkan nilai acak setia
 ![Screenshot soal 12](docs/prak6_no12.gif)
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
 
+## Soal 13
+
+* Jelaskan maksud praktikum ini ! Dimanakah letak konsep pola BLoC-nya ?
+Pada praktikum ini kita membuat aplikasi yang dapat mengubah warna secara acak setiap detiknya. Konsep pola BLoC-nya terletak pada penggunaan stream untuk menghasilkan nilai acak setiap detik dan membangun antarmuka pengguna yang memperbarui tampilan UI sesuai dengan nilai yang diterima dari stream.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![Screenshot soal 13](docs/prak7_no13.gif)
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 13".
+
 
