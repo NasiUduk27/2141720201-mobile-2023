@@ -147,4 +147,17 @@ Kerena menggunakan `Stream stream = numberStreamController.stream.asBroadcastStr
 ![Screenshot soal 11](docs/prak5_no11.gif)
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 11".
 
+## Soal 12
+
+* Jelaskan maksud kode pada langkah 3 dan 7 !
+
+Langkah 3
+Kelas ini memiliki metode getNumber yang mengembalikan suatu stream `(Stream<int>)`. Stream ini akan menghasilkan nilai secara periodik setiap 1 detik menggunakan `Stream.periodic`. Setiap kali periode berlalu, fungsi yang didefinisikan oleh (int t) akan dipanggil, dan angka acak antara 0 dan 9 dihasilkan menggunakan Random. Nilai ini kemudian dikembalikan ke stream menggunakan `yield*`.
+
+Langkah 7 
+Kode tersebut implementasi penggunaan stream untuk menghasilkan nilai acak setiap detik dan membangun antarmuka pengguna yang memperbarui tampilan UI sesuai dengan nilai yang diterima dari stream.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![Screenshot soal 12](docs/prak6_no12.gif)
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
+
 
