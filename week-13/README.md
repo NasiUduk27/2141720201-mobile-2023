@@ -45,7 +45,9 @@ membuat asynchronous generator yang menghasilkan stream warna yang diperbarui se
 ## Soal 4
 
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
 ![Screenshot soal 4](docs/prak1_no4.gif)
+
 * Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
 
 ## Soal 5
@@ -64,7 +66,9 @@ Kode tersebut membuat instance dari NumberStream, mengambil controller-nya, dan 
 langkah 10
 Kode tersebut merupakan implementasi metode dispose dalam suatu widget atau kelas yang menggunakan numberStreamController. Pada saat objek/widget tersebut dihapus atau tidak lagi digunakan, dispose dipanggil untuk melakukan pembersihan. 
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
 ![Screenshot soal 6](docs/prak2_no6.gif)
+
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6"
 
 ## Soal 7
@@ -130,7 +134,9 @@ Langkah 8
 Pada langkah ini, sebuah angka acak (myNum) antara 0 dan 9 dihasilkan menggunakan Random. Selanjutnya, dilakukan pemeriksaan apakah numberStreamController (mungkin objek dari kelas yang mengontrol stream) masih terbuka (tidak ditutup).
 
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
 ![Screenshot soal 9](docs/prak4_no9.gif)
+
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
 
 ## Soal 10
@@ -144,7 +150,9 @@ Error bisa terjadi karena stream hanya bisa satu kali tidak bisa digunakan 2 str
 * Jelaskan mengapa hal itu bisa terjadi ?
 Kerena menggunakan `Stream stream = numberStreamController.stream.asBroadcastStream();`, hal ini memungkinkan stream didengar oleh beberapa subscription, berbeda halnya dengan stream biasa.
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
 ![Screenshot soal 11](docs/prak5_no11.gif)
+
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 11".
 
 ## Soal 12
@@ -157,7 +165,9 @@ Kelas ini memiliki metode getNumber yang mengembalikan suatu stream `(Stream<int
 Langkah 7 
 Kode tersebut implementasi penggunaan stream untuk menghasilkan nilai acak setiap detik dan membangun antarmuka pengguna yang memperbarui tampilan UI sesuai dengan nilai yang diterima dari stream.
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
 ![Screenshot soal 12](docs/prak6_no12.gif)
+
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
 
 ## Soal 13
@@ -165,7 +175,9 @@ Kode tersebut implementasi penggunaan stream untuk menghasilkan nilai acak setia
 * Jelaskan maksud praktikum ini ! Dimanakah letak konsep pola BLoC-nya ?
 Pada praktikum ini kita membuat aplikasi yang dapat mengubah warna secara acak setiap detiknya. Konsep pola BLoC-nya terletak pada penggunaan stream untuk menghasilkan nilai acak setiap detik dan membangun antarmuka pengguna yang memperbarui tampilan UI sesuai dengan nilai yang diterima dari stream.
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
 ![Screenshot soal 13](docs/prak7_no13.gif)
+
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 13".
 
 
