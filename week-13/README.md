@@ -137,5 +137,14 @@ Pada langkah ini, sebuah angka acak (myNum) antara 0 dan 9 dihasilkan menggunaka
 
 * Jelaskan mengapa error itu bisa terjadi ?4
 Error bisa terjadi karena stream hanya bisa satu kali tidak bisa digunakan 2 stream dalam waktu yang bersamaan.
+* Lakukan commit hasil jawaban Soal 10 dengan pesan "W13: Jawaban Soal 10"
+
+## Soal 11
+
+* Jelaskan mengapa hal itu bisa terjadi ?
+Kerena menggunakan `Stream stream = numberStreamController.stream.asBroadcastStream();`, hal ini memungkinkan stream didengar oleh beberapa subscription, berbeda halnya dengan stream biasa.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![Screenshot soal 11](docs/prak5_no11.gif)
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 11".
 
 
