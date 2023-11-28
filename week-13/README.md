@@ -117,3 +117,18 @@ Menggunakan transform untuk menerapkan transformer pada suatu stream. Kemudian, 
 * Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
 
 ## Soal 9
+
+* Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+
+langkah 2
+mendengarkan perubahan pada suatu stream (stream). Ketika data baru masuk ke stream, fungsi dalam listen akan dijalankan, dan nilai yang masuk akan disimpan dalam variabel lastNumber setelah diupdate menggunakan setState
+
+Langkah 6
+Pada langkah ini, subscription dibatalkan. Ini berarti langganan tidak lagi akan mendengarkan atau menerima perubahan dari stream. 
+
+Langkah 8
+Pada langkah ini, sebuah angka acak (myNum) antara 0 dan 9 dihasilkan menggunakan Random. Selanjutnya, dilakukan pemeriksaan apakah numberStreamController (mungkin objek dari kelas yang mengontrol stream) masih terbuka (tidak ditutup).
+
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![Screenshot soal 9](docs/prak4_no9.gif)
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
